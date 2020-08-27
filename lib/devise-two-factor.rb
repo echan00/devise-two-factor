@@ -10,7 +10,7 @@ module Devise
   # The number of seconds before and after the current
   # time for which codes will be accepted
   mattr_accessor :otp_allowed_drift
-  @@otp_allowed_drift = 30
+  @@otp_allowed_drift = 300  
 
   # The key used to encrypt OTP secrets in the database
   mattr_accessor :otp_secret_encryption_key
